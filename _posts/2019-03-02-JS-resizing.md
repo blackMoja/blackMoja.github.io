@@ -11,7 +11,6 @@ tags:
 나중에 또 사용할 일이 생길수도 있어서 이번기회에 로직을 정리하여 올려둘려고 한당
 
 <!--more-->
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg)
 
 ** ES5 **
 ```javascript
