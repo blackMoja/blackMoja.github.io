@@ -1,8 +1,10 @@
 ---
 title: 클로저(Closure)
 date: 2019-01-19
-categories: javascript
-tags: javascript
+categories:
+    - javascript
+tags:
+    - javascript
 ---
 몇일 전 구글링을 하다가 클로저에 대해서 문뜩 스쳐간 기억이 난다.
 두리뭉실하게 기억한 나는 다시한번 개념을 잡기위해 클로저(Closure)에 대하여 알아보고자 한다.

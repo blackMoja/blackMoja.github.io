@@ -1,8 +1,10 @@
 ---
 title: 이미지 리사이징
 date: 2019-03-02
-categories: javascript
-tags: javascript
+categories:
+    - javascript
+tags:
+    - javascript
 ---
 최근 서버로부터 10메가 이상 이미지파일을 올리면 서버에서 안받아준다는 안타까운 소식을 들은 나는
 얼렁 이슈제기가 되기전에 이미지 리사이징 로직을 개발했다.

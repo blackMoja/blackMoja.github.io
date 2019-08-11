@@ -1,8 +1,10 @@
 ---
 title: 함수
 date: 2018-12-20
-categories: javascript
-tags: javascript
+categories:
+    - javascript
+tags:
+    - javascript
 ---
 ### 들어가기 전...
 요즘 자바스크립트에 대해 더 자세히 공부하면서 기본적인 내용 중에서 많이 사용하면서, 가장 중요한 **함수(Function)**에 대하여 복습하는 겸 내용을 정리하고자 한다.

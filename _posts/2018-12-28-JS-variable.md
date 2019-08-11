@@ -1,8 +1,10 @@
 ---
 title: 변수의 범위와 호이스팅
 date: 2018-12-28
-categories: javascript
-tags: javascript
+categories:
+    - javascript
+tags:
+    - javascript
 ---
 ### 들어가기 전...
 정말 오랜만에 블로그 포스팅을 하는 것 같다... 마지막으로 글을 올린지 벌써 5달이 되어갔다.. 
