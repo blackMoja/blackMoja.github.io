@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "blackMoja"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "front-end-devloper"
   location         : "Seoul"
   email            : "limlim980625@gmail.com"
