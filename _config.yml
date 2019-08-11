@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# remote_theme : mmistakes/minimal-mistakes
+
 # Site settings
 title:       Type
 email:       ''
@@ -46,5 +48,3 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
-
-remote_theme : mmistakes/minimal-mistakes
