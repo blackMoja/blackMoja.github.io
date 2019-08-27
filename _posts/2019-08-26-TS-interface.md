@@ -22,7 +22,7 @@ Vue js 공식 사이트에서는 computed의 속성은 getter를 가지고 있�
 또한 템플릿 표현식에서 복잡한 계산식을 가지게 될 경우 computed를 권장 합니다.
 
 간단한 예제를 통해 우선 보겠습니다.
-```
+```html
 <div id="example">
     <p>원본 메세지 : "{{ message }}" </p>
     <p>역순 메세지 : "{{ reservedMessage }}" </p>
