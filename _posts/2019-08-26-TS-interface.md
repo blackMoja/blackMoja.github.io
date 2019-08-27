@@ -22,7 +22,7 @@ Vue js 공식 사이트에서는 computed의 속성은 getter를 가지고 있�
 또한 템플릿 표현식에서 복잡한 계산식을 가지게 될 경우 computed를 권장 합니다.
 
 간단한 예제를 통해 우선 보겠습니다.
-```html
+```
 <div id="example">
     <p>원본 메세지 : {{ message }} </p>
     <p>역순 메세지 : {{ reservedMessage }} </p>
@@ -57,7 +57,7 @@ var vm = new Vue({
 ## computed의 캐싱 vs 메소드
 표현식에서는 메소드를 호출하여 computed와 같은 결과를 얻을 수 있습니다.
 
-```html
+```
 <p>뒤짚힌 메세지 : {{ reservedMessage() }}</p>
 ```
 
@@ -75,7 +75,7 @@ methods: {
 computed로 선언한 방식의 값은 실제로 값이 변경되지 않는 이상 여러 번 요청해도 값을 계산하지 않고,
 이미 저장되어 있는 값을 반환합니다.
 
-```html
+```
 <div id="test">
     <p>테스트를 해보아요</p>
     <p>computed : {{ reservedText }}</p>
@@ -118,7 +118,7 @@ Vue는 computed와 비슷한 역할을 하는 watch라는 속성을 제공합니
 Watch는 다른 데이터 기반으로 변경할 필요가 있는 데이터가 있는 경우
 그 데이터가 바뀌면 이런 함수를 실행하라는 방식으로 소프트웨어 공학에서 이야기하는 ‘명령형 프로그래밍’ 방식 입니다.
 
-```html
+```
 <div id="test">
     {{ city }}
 </div>
@@ -164,7 +164,7 @@ var vm = new Vue({
 Vue는 watch 옵션을 통해 데이터 변경에 반응하는 보다 일반적인 방법을 제공합니다.
 이는 데이터 변경에 대한 응답으로 비동기식 또는 시간이 많이 소요되는 조작을 수행하려는 경우에 가장 유용합니다.
 
-```html
+```
 <div id="watch">
     <p>
         아무거나 입력하십셔 :
