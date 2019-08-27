@@ -24,8 +24,8 @@ Vue js 공식 사이트에서는 computed의 속성은 getter를 가지고 있�
 간단한 예제를 통해 우선 보겠습니다.
 ```
 <div id="example">
-    <p>원본 메세지 : {{ message }} </p>
-    <p>역순 메세지 : {{ reservedMessage }} </p>
+    <p>원본 메세지 : "{{ message }}" </p>
+    <p>역순 메세지 : "{{ reservedMessage }}" </p>
 </div>
 ```
 
@@ -58,7 +58,7 @@ var vm = new Vue({
 표현식에서는 메소드를 호출하여 computed와 같은 결과를 얻을 수 있습니다.
 
 ```
-<p>뒤짚힌 메세지 : {{ reservedMessage() }}</p>
+<p>뒤짚힌 메세지 : "{{ reservedMessage() }}"</p>
 ```
 
 ```javascript
@@ -78,10 +78,10 @@ computed로 선언한 방식의 값은 실제로 값이 변경되지 않는 이�
 ```
 <div id="test">
     <p>테스트를 해보아요</p>
-    <p>computed : {{ reservedText }}</p>
-    <p>computed : {{ reservedText }}</p>
-    <p>methods : {{ reservedText() }}</p>
-    <p>methods : {{ reservedText() }}</p>
+    <p>computed : "{{ reservedText }}"</p>
+    <p>computed : "{{ reservedText }}"</p>
+    <p>methods : "{{ reservedText() }}"</p>
+    <p>methods : "{{ reservedText() }}"</p>
 </div>
 ```
 
@@ -120,7 +120,7 @@ Watch는 다른 데이터 기반으로 변경할 필요가 있는 데이터가 �
 
 ```
 <div id="test">
-    {{ city }}
+    " {{ city }}"
 </div>
 ```
 
@@ -170,7 +170,7 @@ Vue는 watch 옵션을 통해 데이터 변경에 반응하는 보다 일반적�
         아무거나 입력하십셔 :
         <input v-model="text">
     </p>
-    <p>{{ text }}</p>
+    <p>"{{ text }}"</p>
 </div>
 ```
 
