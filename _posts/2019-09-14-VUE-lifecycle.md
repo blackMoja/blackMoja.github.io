@@ -1,5 +1,5 @@
 ---
-title: Watch와 Computed
+title: Vue 라이프사이클
 date: 2019-08-26
 categories:
     - Vue
@@ -84,6 +84,8 @@ updated: function () {
 # 마치며
 오늘은 뷰 JS 공식 사이트에도 정리가 잘 되어 있지만 나름 대로 정리하며 다시 개념들을 확인하였다.
 다음 블로그 포스팅에는 가상 돔을 포스팅하여 기본적인 내용을 좀더 정리할려구 한다.
+
+더 자세한 API doc는 아래 참고한 자료에 추가해놨으니 정확한 설명이 좀더 필요하면 참고하자!
 
 # 참고한 자료
 [VueJs-Api](https://kr.vuejs.org/v2/api/)
