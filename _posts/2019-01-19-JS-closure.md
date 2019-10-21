@@ -6,8 +6,8 @@ categories:
 tags:
     - javascript
 ---
-몇일 전 구글링을 하다가 클로저에 대해서 문뜩 스쳐간 기억이 난다.
-두리뭉실하게 기억한 나는 다시한번 개념을 잡기위해 클로저(Closure)에 대하여 알아보고자 한다.
+클로저(Closure)에 대하여 알아보고자 한다.
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/javascript.png)
 <!-- more -->
 # 클로저란 무엇일까?
 간단하게 설명해보자면 외부함수안에 내부함수를 선언해서 리턴을 해주면 그 자체로 클로저가 된다.

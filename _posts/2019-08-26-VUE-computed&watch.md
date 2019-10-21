@@ -6,12 +6,8 @@ categories:
 tags:
     - Vue
 ---
-
-정말 오랜만에 글 쓰는 것 같다.. @.@
-더운 날씨와 나태해진 정신상태를 바로 잡고자 다시한번 블로그를 정리한다! ㅎ.ㅎ
-
-최근 담당하고 있는 프로젝트 관련하여 Vue + typescript 구조로 고도화를 진행하는 도중
-Vue에 관하여 조금씩 정리를 해볼려구 한다!
+고도화 진행하는 과정에서 Vue에서 computed와 watch에 대한 차이를 정리하고자 한다.
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/javascript.png)
 
 <!--more-->
 
